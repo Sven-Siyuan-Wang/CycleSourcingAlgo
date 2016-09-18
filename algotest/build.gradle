@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile files('libs/org.json.jar')
+    compile files('libs/org.apache.commons.io.jar')
+    compile files('libs/hamcrest-core-1.3.jar')
+    compile files('libs/jcommon-1.0.23.jar')
+    compile files('libs/jfreechart-1.0.19.jar')
+    compile files('libs/jfreechart-1.0.19-experimental.jar')
+    compile files('libs/jfreechart-1.0.19-swt.jar')
+    compile files('libs/jfreesvg-2.0.jar')
+    compile files('libs/junit-4.11.jar')
+}
